@@ -9,10 +9,10 @@ console.log(concatArrays([1, 2, 3], [4, 5, 6])); // Output: [1, 2, 3, 4, 5, 6]
 console.log(concatArrays(['apple', 'banana'], ['cherry', 'dragonfruit'])); // Output: ['apple', 'banana', 'cherry', 'dragonfruit']
 
 
-// Write a function that takes an array and returns a new array with the first and last elements removed, using the rest operator.
+// Write a function that takes an array and returns a new array with the first and last elements removed.
 
-function removeFirstAndLast(){
-
+function removeFirstAndLast(arr){
+return arr.slice(1,-1)
 }
 
 console.log(removeFirstAndLast([1, 2, 3, 4])); // Output: [2, 3]
