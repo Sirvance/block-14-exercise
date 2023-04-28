@@ -2,6 +2,7 @@
 
 function concatArrays(arr1, arr2){
     // TODO, write your code here
+return [...arr1,...arr2]
 }
 
 console.log(concatArrays([1, 2, 3], [4, 5, 6])); // Output: [1, 2, 3, 4, 5, 6]
