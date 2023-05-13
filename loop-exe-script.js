@@ -1,15 +1,15 @@
 // Write a for loop that prints the numbers 1 through 10 to the console.
-for (let i = 0; i <= 10; i++){
+for(let i = 0; i <= 10;i++){
     console.log(i)
 }
 // Write a for loop that prints the even numbers from 2 to 20 to the console.
-for(let i = 0; i <= 20; i++){
+for (let i = 0; i <= 20; i++){
     if(i%2===0)console.log(i)
-    }
+}
     
 // Write a while loop that counts down from 10 to 1 and prints the numbers to the console.
 let i = 10
-while(i>=0){
+while(i>=1){
     console.log(i)
     i--
 }
@@ -23,13 +23,27 @@ while(i>=0){
 // ****
 // *****
 
+for (let i = 1; i <=5; i++) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+     row += "*";
+    }
+    console.log(row);
+}
+
 // Write a for loop that prints the following pattern to the console:
 // *****
 // ****
 // ***
 // **
 // *
-
+for (let i = 5; i >= 1; i--) {
+    let row ="";
+    for (let j = 1; j <= i; j++) {
+        row += "*";
+    }
+    console.log(row);
+}
 
 // bonus 
 // Write a while loop that generates random numbers between 1 and 10 until a number greater than 8 is generated. The loop should print each generated number to the console.
