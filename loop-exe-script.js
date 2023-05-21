@@ -1,9 +1,9 @@
 // Write a for loop that prints the numbers 1 through 10 to the console.
-for (let i = 0; i <= 10; i++){
+for(let i = 0; i <= 10; i++){
     console.log(i)
-}
+}    
 // Write a for loop that prints the even numbers from 2 to 20 to the console.
-for (let i = 0; i <= 20; i++){
+for(let i = 0; i <=20; i++){
     if(i%2===0)console.log(i)
 }
 // Write a while loop that counts down from 10 to 1 and prints the numbers to the console.
@@ -12,6 +12,7 @@ while(i>=1){
     console.log(i)
     i--
 }
+    
 // Write a while loop that prompts the user to enter a number greater than 5. Keep prompting until the user enters a valid number.
 
 
@@ -22,10 +23,10 @@ while(i>=1){
 // ****
 // *****
 
-for (let i = 1; i <=5; i++) {
+for (let i =1; i <= 5; i++) {
     let row = "";
     for (let j = 1; j <= i; j++) {
-     row += "*";
+        row += "*";
     }
     console.log(row);
 }
@@ -37,7 +38,7 @@ for (let i = 1; i <=5; i++) {
 // **
 // *
 for (let i = 5; i >= 1; i--) {
-    let row ="";
+    let row = "";
     for (let j = 1; j <= i; j++) {
         row += "*";
     }
